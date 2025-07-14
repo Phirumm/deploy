@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3"
+    >
+      <!-- img1 -->
+      <div class="card image">
+        <img
+          src="https://i.pinimg.com/736x/12/ed/5d/12ed5de89958154383e14f6739b90243.jpg"
+          alt="img1"
+          class="rounded-lg"
+        />
+      </div>
+      <!-- img2 -->
+      <div class="card image">
+        <img
+          src="https://i.pinimg.com/736x/8a/da/ff/8adafffbab914e5f2f3b487b9037dbdc.jpg"
+          alt="img2"
+          class="rounded-lg"
+        />
+      </div>
+      <!-- img3 -->
+      <div class="card image">
+        <img
+          src="https://i.pinimg.com/736x/f5/e7/c3/f5e7c3890ab84895bdb1f89ac6ba4069.jpg"
+          alt="img3"
+          class="rounded-lg"
+        />
+        <!-- img4 -->
+      </div>
+      <div class="card image">
+        <img
+          src="https://i.pinimg.com/736x/d3/7e/e4/d37ee4ff80022584a7b4522f4fb606f3.jpg"
+          alt="img4"
+          class="rounded-lg"
+        />
+      </div>
+      <div class="flex items-center justify-center">
+        <button
+          class="bg-sky-500 font-bold p-2 rounded-lg text-white w-25 hover:bg-red-700 focus:ring-2 active:text-black">
+          <a href="https://www.pinterest.com" target="_blank" class="visited:bg-white">Next</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- testimonial -->
+    <div>
+      <ul role="list">
+        <!-- Remove top/bottom padding when first/last child -->
+        <li class="flex py-4 first:pt-0 last:pb-0 border w-50 p-8 rounded-lg ">
+          <img class="h-10 w-10 rounded-full" src="https://i.pinimg.com/736x/12/ed/5d/12ed5de89958154383e14f6739b90243.jpg" alt="" />
+          <div class="ml-3 overflow-hidden">
+            <p class="text-sm font-medium text-gray-900 dark:text-white">Cat1</p>
+            <p class="truncate text-sm text-gray-500 dark:text-gray-400">cat1@gamil.com</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

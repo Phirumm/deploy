@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Preline UI */
+
+
+
+@theme{  
+        --font-family: "Konkhmer Sleokchher", system-ui;
+    }
+
